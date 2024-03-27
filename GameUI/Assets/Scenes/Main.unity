@@ -665,10 +665,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eeabeceb558c6d64fbcd1347cd8145df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxHealth: 3
   targetWord: this
   reactionImage: {fileID: 1133462916}
   inputField: {fileID: 846884588}
   targetText: {fileID: 1789939739}
+  healthyImage: {fileID: 5972358544965939310, guid: 8f07350bd60ef6041a71c18151d4334a, type: 3}
+  damagedImage: {fileID: -3567289560200634938, guid: 8f07350bd60ef6041a71c18151d4334a, type: 3}
+  destroyedImage: {fileID: -4866804261016402412, guid: 8f07350bd60ef6041a71c18151d4334a, type: 3}
 --- !u!4 &1212283388
 Transform:
   m_ObjectHideFlags: 0
