@@ -2,20 +2,24 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour {
     [SerializeField] private string targetWord;
-    [SerializeField] private int maxLives = 3;
+    [SerializeField] private Image reactionImage;
     [SerializeField] private TMP_InputField inputField;
-    private int lives;
+    [SerializeField] private TMP_Text targetText;
+
     private void Start() {
-        lives = maxLives;
+        UpdateTargetText(targetWord);
     }
 
     public void InputTextUpdated() {
-        string text = inputField.GetComponent<TMP_InputField>().text;
-        if (!targetWord.StartsWith(text)) {
-            lives--;
-        }
+        string text = inputField.text;
+        reactionImage.color = targetWord.StartsWith(text) ? Color.green : Color.red;
+    }
+    private void UpdateTargetText(string newText) {
+        targetWord = newText;
+        targetText.text = newText;
     }
 }
