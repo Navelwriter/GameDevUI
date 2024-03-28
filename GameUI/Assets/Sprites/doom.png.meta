@@ -62,7 +62,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -98,7 +98,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -110,7 +110,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -126,7 +126,7 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 113
-        width: 87.4
+        width: 86
         height: 113
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -145,9 +145,9 @@ TextureImporter:
       name: doom_1
       rect:
         serializedVersion: 2
-        x: 87
+        x: 86
         y: 113
-        width: 87.4
+        width: 86
         height: 113
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -166,9 +166,9 @@ TextureImporter:
       name: doom_2
       rect:
         serializedVersion: 2
-        x: 174
+        x: 172
         y: 113
-        width: 87.4
+        width: 86
         height: 113
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -187,9 +187,9 @@ TextureImporter:
       name: doom_3
       rect:
         serializedVersion: 2
-        x: 261
+        x: 258
         y: 113
-        width: 87.4
+        width: 86
         height: 113
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -208,9 +208,9 @@ TextureImporter:
       name: doom_4
       rect:
         serializedVersion: 2
-        x: 348
+        x: 344
         y: 113
-        width: 87.4
+        width: 93
         height: 113
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -231,7 +231,7 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 87.4
+        width: 86
         height: 113
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -250,9 +250,9 @@ TextureImporter:
       name: doom_6
       rect:
         serializedVersion: 2
-        x: 87
+        x: 86
         y: 0
-        width: 87.4
+        width: 86
         height: 113
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -271,9 +271,9 @@ TextureImporter:
       name: doom_7
       rect:
         serializedVersion: 2
-        x: 174
+        x: 172
         y: 0
-        width: 87.4
+        width: 86
         height: 113
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -292,9 +292,9 @@ TextureImporter:
       name: doom_8
       rect:
         serializedVersion: 2
-        x: 261
+        x: 258
         y: 0
-        width: 87.4
+        width: 86
         height: 113
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -313,9 +313,9 @@ TextureImporter:
       name: doom_9
       rect:
         serializedVersion: 2
-        x: 348
+        x: 344
         y: 0
-        width: 87.4
+        width: 93
         height: 113
       alignment: 0
       pivot: {x: 0, y: 0}

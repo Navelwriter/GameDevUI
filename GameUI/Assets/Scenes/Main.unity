@@ -489,6 +489,8 @@ GameObject:
   - component: {fileID: 1133462915}
   - component: {fileID: 1133462917}
   - component: {fileID: 1133462916}
+  - component: {fileID: 1133462918}
+  - component: {fileID: 1133462919}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -535,7 +537,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 7158048553732276698, guid: 8f07350bd60ef6041a71c18151d4334a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -553,6 +555,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1133462914}
   m_CullTransparentMesh: 1
+--- !u!95 &1133462918
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1133462914}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: a352be5a42d30de479b2bd76ce257564, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1133462919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1133462914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5dc9044f8e7eb445b027d4560db331c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1179461328
 GameObject:
   m_ObjectHideFlags: 0
@@ -665,14 +698,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eeabeceb558c6d64fbcd1347cd8145df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 3
-  targetWord: this
-  reactionImage: {fileID: 1133462916}
   inputField: {fileID: 846884588}
   targetText: {fileID: 1789939739}
-  healthyImage: {fileID: 5972358544965939310, guid: 8f07350bd60ef6041a71c18151d4334a, type: 3}
-  damagedImage: {fileID: -3567289560200634938, guid: 8f07350bd60ef6041a71c18151d4334a, type: 3}
-  destroyedImage: {fileID: -4866804261016402412, guid: 8f07350bd60ef6041a71c18151d4334a, type: 3}
+  health: 3
+  targetWord: this
 --- !u!4 &1212283388
 Transform:
   m_ObjectHideFlags: 0
